@@ -1,0 +1,167 @@
+
+/*NEW FORM CSS HERE -----------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*NEW FORM CSS HERE -----------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*NEW FORM CSS HERE -----------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.modal-login {
+    color: #636363;
+    width: 400px;
+}
+
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-login .modal-header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+
+.modal-login h4 {
+    text-align: center;
+    font-size: 27px;
+    margin: 27px 0 -15px;
+}
+
+.modal-login .form-control:focus {
+    border-color: rgb(227, 156, 0);
+}
+
+.modal-login .form-control,
+.modal-login .btn {
+    min-height: 41px;
+    border-radius: 3px;
+}
+
+.modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #a5963c;
+    text-align: center;
+    justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.modal-login .modal-footer a {
+    color: rgb(160, 11, 11);
+}
+
+.modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: rgb(82%, 62%, 20%);
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.modal-login .avatar img {
+    width: 100%;
+    margin-right: 100%;
+}
+
+.modal-login.modal-dialog {
+    margin-top: 80px;
+}
+
+.modal-login .btn,
+.modal-login .btn:active {
+    color: #fff;
+    border-radius: 4px;
+    background: rgb(82%, 62%, 20%) !important;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+}
+/*CSS DO HOVER DE BOTÃO DE LOGIN:: #5776dc*/
+
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+    background: #e8d04e !important;
+    outline: none;
+}
+/*LINK DO BOTÃO DE ACESSO*/
+/*Alinhamento do botão */
+
+.trigger-btn,
+.btn,
+hover {
+    display: inline-block;
+    margin: 4px auto;
+}
+/*CSS DO STILO DA IMAGEM*/
+
+img {
+    border-radius: 600%;
+    position: absolute;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0px;
+    width: 50px;
+    top: -0px;
+    box-shadow: 30px;
+}
+/*CSS DO ESTILO DO INPUT*/
+
+.form-group {
+    margin: 10px;
+    width: 100% 500%;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+}
+
+.modal-footer {
+    margin: -100px auto;
+}
+
+.form-login {
+    text-align: center;
+    justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+.card {
+    flex-direction: 50%;
+    margin: 25%;
+   /* margin-right: 10%;*/
+   margin:0 auto;
+    margin-top: 5%;
+    width: 400px;
+    height: 450px;
+    box-shadow: 4px 4px 4px 4px;
+    color: #a5963c;
+}
+.modal-title{
+    color: #a5963c;
+}
